@@ -12,6 +12,14 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        "BebasNeue": ['Bebas Neue',' sans-serif'],
+        "playFair": ['Playfair Display SC', 'serif'],
+        "Raleway": [ 'Raleway', 'sans-serif']
+      },
+      gridTemplateColumns: {
+        fluid: 'repeat(auto-fill, minmax(240px, 1fr))'
+      }
     },
   },
   plugins: [],
